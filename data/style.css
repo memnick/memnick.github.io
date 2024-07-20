@@ -117,12 +117,15 @@ nav .el:hover {
         margin: 4px;
     }
     .menu {
-        width: 146px;
+        width: 116px;
         background-color: #1f1f23;
         overflow: hidden;
     }
     .menu.open {
-        width: 520px;
+        width: 490px;
         background-color: #1f1f23;
+    }
+    img {
+        width: 20px;
     }
 }
