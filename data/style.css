@@ -116,4 +116,13 @@ nav .el:hover {
         height: 30px;
         margin: 4px;
     }
+    .menu {
+        width: 146px;
+        background-color: #1f1f23;
+        overflow: hidden;
+    }
+    .menu.open {
+        width: 500px;
+        background-color: #1f1f23;
+    }
 }
