@@ -128,4 +128,7 @@ nav .el:hover {
     img {
         width: 20px;
     }
+    .el {
+        padding: 3px !important;
+    }
 }
