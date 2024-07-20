@@ -106,7 +106,7 @@ nav .el:hover {
     }
 
     img#mm {
-        width: 244px !important;
+        width: 220px !important;
     }
     span.mem {
         font-size: 25px !important;
@@ -117,18 +117,15 @@ nav .el:hover {
         margin: 4px;
     }
     .menu {
-        width: 80px;
+        width: 146px;
         background-color: #1f1f23;
         overflow: hidden;
     }
     .menu.open {
-        width: 550px;
+        width: 520px;
         background-color: #1f1f23;
     }
     img {
-        width: 20px;
-    }
-    .el {
-        padding: 3px !important;
+        width: 30px;
     }
 }
