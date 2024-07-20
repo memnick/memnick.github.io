@@ -108,4 +108,7 @@ nav .el:hover {
     img#mm {
         width: 244px !important;
     }
+    span.mem {
+        font-size: 25px !important;
+    }
 }
