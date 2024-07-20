@@ -111,4 +111,9 @@ nav .el:hover {
     span.mem {
         font-size: 25px !important;
     }
+    .twitch, .youtube, .discord, .telegram, .don {
+        width: 30px;
+        height: 30px;
+        margin: 4px;
+    }
 }
