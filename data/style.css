@@ -1,7 +1,7 @@
 body {
     display: flex;
     justify-content: center;
-    background-image: url(/data/res/arl.jpg);
+    background-image: url('https://img2.wtftime.ru/store/2023/08/17/6qD8sCLs_big_poster_ds.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed
@@ -14,12 +14,7 @@ a, span, h1, h2, h3 {
 .page {
     max-width: 1200px;
     min-width: 1200px;
-    background-color: #0e0e10;
-}
-
-.page-l {
-    display: flex;
-    justify-content: flex-start;
+    background-color: #0e0e10c7;
 }
 
 .sidebar {
@@ -46,86 +41,11 @@ a, span, h1, h2, h3 {
     margin: 10px;
 }
 
-img {
-    width: 30px;
-}
 
-.menu {
-    width: 46px;
-    background-color: #1f1f23;
-    overflow: hidden;
-}
 
-.content {
-    width: 1100px;
+.profile {
+    display: none;
 }
-
-.menu.open {
-    width: 146px;
-    background-color: #1f1f23;
-}
-
-nav {
-  background-color: #1f1f23;
-}
-
-.el {
-    width: 130px;
-    display: flex;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
-}
-
-nav a {
-  color: #fff;
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-}
-
-nav .el:hover {
-  background-color: #555;
-}
-
-.bl-1 {
-    margin-left: 15px;
-}
-@media only screen and (min-device-width: 300px) 
-                   and (max-device-width: 800px) 
-                   and (orientation: portrait) {
-    .page {
-        min-width: -webkit-fill-available;
-    }
-
-    img#mm {
-        width: 220px !important;
-    }
-    span.mem {
-        font-size: 25px !important;
-    }
-    .twitch, .youtube, .discord, .telegram, .don {
-        width: 30px;
-        height: 30px;
-        margin: 4px;
-    }
-    .menu {
-        width: 146px;
-        background-color: #1f1f23;
-        overflow: hidden;
-    }
-    .menu.open {
-        width: 520px;
-        background-color: #1f1f23;
-    }
-    img {
-        width: 30px;
-    }
+.profile:target {
+    display: block;
 }
